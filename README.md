@@ -8,3 +8,4 @@ docker-compose up -d : to build the project(all the neccessary containers will b
 then ssh into your site:
 then using composer install drupal
 that is it.
+Create a config/sync directory and then use chown -R www-data:www-data /html/web
