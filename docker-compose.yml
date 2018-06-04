@@ -1,10 +1,10 @@
 version: '3'
 services:
   db:
-    image: mariadb:10.2
+    image: mariadb:latest
     environment:
       MYSQL_DATABASE: drupal
-      MYSQL_ROOT_PASSWORD: AppleSucks
+      MYSQL_ROOT_PASSWORD: drupal
     volumes:
       - db_data:/var/lib/mysql
     restart: always
