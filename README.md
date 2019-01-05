@@ -8,4 +8,4 @@
  then ssh into your site:
  then using composer install drupal
  that is it.
-# Create a config/sync directory and then use chown -R www-data:www-data /html/web
+ Create a config/sync directory and then use chown -R www-data:www-data /html/web
